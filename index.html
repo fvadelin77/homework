@@ -3,14 +3,40 @@
   <head>
     <title>Jeremy's Blog</title>
     <style>
+        body{
+            line-height: 2;
+        }
         .postedDate {
             color: rgb(118, 118, 118);
+            padding-right: 20%;
+            padding-left: 20%;
+        }
+        .articleBody {
+            /* background-color: ivory; */
+            position:relative;
+            padding-right: 20%;
+            padding-left: 20%;
+            background-position: center;
+        }
+        hr {
+            padding-right: 20%;
+            padding-left: 20%;
+        }
+        h3{
+            padding-right: 20%;
+            padding-left: 20%;
+        }
+        table{
+            width: 100%;
+            /* background-color: rgb(240, 240, 240); */
+            padding-right: 20%;
+            padding-left: 20%;
+
         }
     </style>
   </head>
   <body>
-    <div id="topBar">
-      <table style:"width100%">
+      <table>
           <tr>
             <td><h5>Jeremy's Blog</h5></td>
             <td><h5>HOME</h5></td>
@@ -18,16 +44,16 @@
             <td><h5>ARCHIVE</h5></td>
           </tr>
       </table>
-      <hr color="black" width="100%" size="2px">
+        <hr color="black" width="20%" size="2px">
+        <h3>Rules for Autocomplete</h3>
+
+        <div class="postedDate">
+        <p>
+            <i>Posted on March 19, 2019</i>
+        </p>
     </div>
-    <h3>Rules for Autocomplete</h3>
-    <div class="postedDate">
-    <p>
-        <i>Posted on March 19, 2019</i>
-    </p>
-    </div>
+
     <div class="articleBody">
-    
         <p>
             Autocompleting text with known values seems like an easy problem to solve, but so so so many UIs get it wrong. I see this frequently enough that, rather than complain about them individually, I though I'd just write down the set of rules they often break.
         </p>
